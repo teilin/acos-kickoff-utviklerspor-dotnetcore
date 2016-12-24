@@ -22,11 +22,18 @@ Tilbake fra project.json til til csproj prosjektfil. .NetCore sin csproj har end
 
 ## Hva er nytt fra standard .Net?
 
-.NetStandard versjoner og kompabilitet med klassisk .Net framework. Tabellen er hentet fra [CoreFx]() på Github.
+.NetStandard versjoner og kompabilitet med klassisk .Net framework. Tabellen er hentet fra [CoreFx](https://docs.microsoft.com/en-us/dotnet/articles/standard/library) på Github.
 
- | 1.0 | 1.1 | 1.3 | 1.4 | 1.5 | 1.6 | 2.0
- --- | --- | --- | --- | --- | --- | --- | ---
- ... | | | | | | | 
+ .NET Standard | netstandard | 1.0 | 1.1 | 1.2| 1.3 | 1.4 | 1.5 | 1.6 | 2.0
+ --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+ NET Core | netcoreapp | → | → | → | → | → | → | 1.0 | vNext 
+ .NET Framework | net | → | 4.5 | 4.5.1 | 4.6 | 4.6.1 | 4.6.2 | vNext | 4.6.1 
+ Mono/Xamarin Platforms |  | → | → | → | → | → | → | → | vNext 
+ Universal Windows Platform | uap | → | → | → | → | 10.0 | → | → | vNext
+ Windows | win | → | 8.0 | 8.1 | | | | |
+ Windows Phone | wpa | → | → | 8.1 | | | | |
+ Windows Phone Silverlight | wp | 8.0 | | | | | | |
+
 
 * Alt er NuGet-pakker
 * .NetStandard skal erstatte dagens PCL.
@@ -37,6 +44,9 @@ Tilbake fra project.json til til csproj prosjektfil. .NetCore sin csproj har end
 * Pipelinen konfigureres i Startup.cs
 * **"Alt"** er middelware i dotnet core. Middelware er også NuGet pakker. Det gjør det enkelt å ikke ta med mer enn man faktisk trenger i prosjektet.
 * YSOD (Yellow Screen of Death) er ikke default i .Net Core.
+
+>The "Yellow Screen Of Death" commonly seen on ASP.NET websites which have un-captured errors returned to the users web browser. [Kilde: YSOD](http://www.urbandictionary.com/define.php?term=YSOD)
+
 * Alle request går igjennom middelware pipelinen.
 
 ## Verktøy
@@ -83,5 +93,5 @@ Hvis tid temaer til demoen
 * [Intermidiate DotNet Core](http://bit.ly/2hCEvWl), http://bit.ly/2hCEvWl
 * [ASP.Net Ukentlige Standup](http://live.asp.net)
 * [Microsoft ASP.Net team blog](). Her legges det ut linker til bloggposter som blir dratt frem på den ukentlige standupen og mye annen informasjon.
-* [ASP.Net dokumentasjon](http://docs.asp.net/)
-* [.Net Core dokumentasjon]()
+* [ASP.Net dokumentasjon](https://docs.microsoft.com/en-us/aspnet/core/)
+* [.Net Core dokumentasjon](https://docs.microsoft.com/en-us/dotnet/core/api/)
