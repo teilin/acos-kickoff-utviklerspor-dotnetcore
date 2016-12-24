@@ -10,7 +10,7 @@ Presentasjonen er tilgjengelig på [Github]().
 
 * **1.0 - Long Term**
 
-Ble lansert i juni 2016 med RTM release etter en lengere utvikling og flere faser med beta og release kandidater.
+Ble lansert i juni 2016 med RTM release etter en lengere utvikling og flere faser med beta og release kandidater. I denne versjonen var prosjektfilen en json fil.
 
 * **1.1 - Current**
 
@@ -43,7 +43,7 @@ Tilbake fra project.json til til csproj prosjektfil. .NetCore sin csproj har end
 
 Mange gode alternativer i Visual Studio serien.
 
- | Visual Studio IDE | Visual Studio Code | Visual Studio Mac | ff
+ | Visual Studio IDE | Visual Studio Code | Visual Studio Mac | Rider
 --- | --- | --- | --- | ---
 Plattform | Windows | Windows/Linux/MacOS | MacOS | Windows/Linux/MacOS
 Brukervennlighet | 2 | 3 | 4 | 5
@@ -62,7 +62,7 @@ Visual Studio Code er en teksteditor utviklet med [Electron]() rammeverket. En e
 
 Visual Studio for Mac er et resulat av at Microsoft kjøpte opp Xamarin. Har man brukt Xamarin Studio så er Visual Studio for Mac veldig kjent.
 
-* [XXX]()
+* [Rider](https://www.jetbrains.com/rider/?fromMenu)
 
 En ny C# IDE for .Net Core fra selskapet bak IntelliJ og ReSharper.
 
