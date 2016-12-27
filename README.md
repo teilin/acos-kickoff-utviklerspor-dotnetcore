@@ -12,6 +12,8 @@ Presentasjonen er tilgjengelig på [Github]().
 
 Ble lansert i juni 2016 med RTM release etter en lengere utvikling og flere faser med beta og release kandidater. I denne versjonen var prosjektfilen en json fil.
 
+Etter at 1.1 ble lansert må sdk versjonen settes i global.json, hvis preview4 eller nyere er installert. Generelt vil dotnet kommandoen velge nyeste installerte sdk med mindre noe annet er spesifisert i global.json.
+
 * **1.1 - Current**
 
 Mulig å også kjøre på nattlige bygginger ved å sette opp NuGet.config til Microsoft ASP.Net myget feed, [myget feed]()
@@ -85,7 +87,7 @@ En ny C# IDE for .Net Core fra selskapet bak IntelliJ og ReSharper.
 
 Hvis tid temaer til demoen
 
-* API dokumentasjon (Swagger)
+* Metadata og API dokumentasjon med Swagger
 
 ## Gratis kurs og annet materiale
 
