@@ -36,9 +36,9 @@ Tilbake fra project.json til til csproj prosjektfil. .NetCore sin csproj har end
  Windows Phone | wpa | → | → | 8.1 | | | | |
  Windows Phone Silverlight | wp | 8.0 | | | | | | |
 
-
+https://www.youtube.com/watch?v=YI4MurjfMn8
 * Alt er NuGet-pakker
-* .NetStandard skal erstatte dagens PCL.
+* .NetStandard skal erstatte dagens PCL. (https://www.infoq.com/news/2016/12/netcore2-spring2017)
 * ASP.Net Core er en konsollapplikasjon.
 
 ## Middleware
